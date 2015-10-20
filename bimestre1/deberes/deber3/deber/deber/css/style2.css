@@ -1,0 +1,62 @@
+#menu{
+
+/*estilo de nuestra lista*/
+background-color:#414141;
+list-style:none;
+width:auto;
+    height: 30px;
+position:relative;
+        text-decoration: none;
+display:block;
+height:36px;
+   
+}
+
+.email 
+{
+  height: 22px;
+    left: 50px;
+    
+    
+    
+}
+.prueba
+{
+  color: aliceblue;  
+}
+input 
+{
+  align-content: space-around;  
+}
+
+.ingresar
+{
+  background-color:#088A29;  
+}
+
+.cuerpo
+{
+
+}
+.lea
+
+{
+   background-color:blue;  
+    width: 8%;height: 7.5%;
+font-family:arial; font-size: 12%; font-weight:bold; 
+color:white ;border-radius: 7px; border: 1px solid #088A29
+} 
+
+
+.lorem
+{
+    margin-right: auto; 
+       font-size: 20% ;
+    text-align: justify;
+}
+
+.parrafo
+{
+   font-size: 20% ;
+    text-align: justify;
+}

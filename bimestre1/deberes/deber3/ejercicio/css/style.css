@@ -1,0 +1,43 @@
+.cuerpo{
+    background-color: gray;
+}
+.negrita
+{
+    font-weight: bold;
+}
+
+.tabla
+{
+    text-align:center;
+
+}
+
+
+.colum1{
+    color: white;
+    background: blue;
+}
+.colum2{
+    color: white;
+    background: blue;
+}
+
+<ul style="list-style-type:disc">
+
+label {
+  display: block;
+  margin: .5em 0 0 0;
+}
+
+
+.nombre
+{
+    font-weight: bold;
+  
+}
+
+.apellido
+{
+    font-weight: bold;
+}
+

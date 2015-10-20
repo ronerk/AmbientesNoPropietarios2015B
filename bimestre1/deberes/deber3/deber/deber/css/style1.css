@@ -1,0 +1,43 @@
+.reg{
+    
+  width: 60%;
+    
+}
+.nombre {
+
+width: 28%;
+    
+
+}
+.apellidos
+{
+   width: 28%; 
+}
+.email
+{
+  width: 28%;   
+}
+
+
+.escribe {
+    
+  width: 28%;  
+    white-space: 35%;
+    
+}
+.contra
+{
+  width: 28%;   
+}
+
+.registrate
+{
+    left: 57%;top: 94%;width: 17%;height: 7.5%;margin-top: 0%;
+font-family:arial; font-size: 130%; font-weight:bold; background-color:#088A29;
+color:white ;border-radius: 7px; border: 1px solid #088A29
+}
+
+.cuerpo
+{
+   background-image: 500%;
+}
