@@ -1,0 +1,11 @@
+Options +MultiViews
+
+php_value auto_prepend_file C:\xampp\htdocs\deber\inc\config.php
+#php_value auto_prepend_file /home/sesion/public_html/lib/config.php
+
+php_value include_path C:\xampp\htdocs\deber\php;C:\xampp\htdocs\deber\inc
+#php_value include_path #.:/home/sesion/public_html/lib/:/home/sesion/public_html/lib/clases:/home/sesion/public_html/:/home/sesion/public_html/lib/smarty-2.6.22
+
+# php_value upload_max_filesize 25M
+#php_value error_reporting 7
+#php_flag display_errors Off
