@@ -1,0 +1,292 @@
+
+.navbar{
+
+margin-bottom: 0;
+
+
+}
+
+.good{
+
+  font-family: impact;
+  font-size: 30px;
+  color:    #D3D3D3;
+}
+
+.lore{
+color:    #D3D3D3;
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #819FF7;
+    background-image: url(../img/log.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+header{
+
+ width:100%;
+
+}
+
+.carousel-indicators{
+
+  margin-left: 100px;
+    margin-top: 32px;
+
+}
+
+.buttonn{
+
+   margin-top: 14px;
+   background-color:    #FF7F50;
+ color: white;
+  width: 60px; height: 25px;
+}
+
+.bux{
+
+  margin-left:9px;
+position: relative;
+top: -15px;
+
+}
+
+.buttx{
+
+  background-color: #1E90FF;
+  color: white;
+}
+
+
+.navbar-brand{
+
+width: 250px; height: 20px;
+
+}
+
+.button7{
+
+
+  position: static;
+}
+
+.what{
+
+  color: #1E90FF;
+
+}
+
+.web{
+
+   padding: 0 50px 0 1px;
+    
+}
+
+.navbar-left{
+
+}
+
+
+.navbar-nav>li>a{
+
+	padding-top: 15px;
+	padding-bottom: 25px;
+
+}
+
+element.style{
+
+margin-top: 10px;
+
+}
+
+.btn-blog{
+
+margin-top: ;
+background-color: red;
+color: 
+
+
+}
+.btn-search{
+
+	background-color: transparent;
+	border: none;
+}
+
+.row 
+{
+
+    margin-bottom: 0;
+
+
+}
+
+.col-md-3{
+
+}
+
+
+.container{
+
+     margin-bottom: 0;
+   
+}
+
+
+.img{
+
+	font-weight: 5%;
+}
+
+.ima{
+
+
+  width: 25px; height: 25px;
+}
+
+.carousel .slide{
+
+width: 30px; height: 20px;
+
+
+}
+
+/*ggggg*/
+
+.carousel-caption{
+
+top: 100px;
+
+
+}
+
+.button1  {
+
+
+background-color: red;
+color: white;
+width:185px;
+height:40px;
+font-size:15px;
+font-weight:bold;
+top: 500px;
+
+}
+
+.web{
+
+  margin-bottom: 0;
+  color: #1E90FF;
+}
+.color1{
+
+  background-color:   #F5F5F5;
+}
+.carousel .slide{
+
+  margin-bottom: 0;
+}
+.color2{
+
+  background-color: #0B3861;
+}
+.rojo{
+
+color:    #FF6347;
+
+}
+.white{
+
+  color: white;
+
+
+}
+
+.cele{
+
+  color: #0B3861;
+}
+
+
+
+.bot{
+
+  color: blue;
+
+  padding: 0 300px 0 250px;
+    margin-top: 32px;
+}
+.btn2{
+
+background-color:   #1E90FF;
+  color: white;
+}
+.bot1{
+
+    color: blue;
+
+  padding: 0 300px 0 172px;
+    margin-top: 32px;
+
+}
+.btn3{
+background-color:   #1E90FF;
+  color: white;
+
+}
+
+.celda
+{
+  
+  color: orange;
+  font-size:20px;
+}
+
+img .img-circle .cuas{
+
+ padding: 0 500px 0 600px;
+   
+
+}
+.sra{
+
+  padding: 0 500px 0 600px;
+}
+.lab{
+
+font-size: white;
+  color:#58ACFA;
+}
+
+.btn4{
+
+ width:80px;
+height:40px;
+font-size: white;
+background-color: #58ACFA;
+    
+}
+.btnn{
+
+padding: 0 400px 0  185px;
+    margin-top: 32px;
+color: white;
+}
+
+.tree{
+
+     margin:0px auto;
+margin-left: 70px;
+}
+
+.tro{
+
+     margin:0px auto;
+margin-left: 70px;
+
+}
