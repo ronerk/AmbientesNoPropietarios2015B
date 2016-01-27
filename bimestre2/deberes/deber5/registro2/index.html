@@ -1,0 +1,284 @@
+
+
+
+
+
+<!DOCTYPE html> 
+<html lang="es"> 
+<head> 
+  <meta charset="utf-8"> 
+  <title>Registro de Usuario</title>
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+<link href="../bootstrap/css/bootstrap.css" rel="stylesheet">
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="../bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+<link href="../bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+<script src="../bootstrap/js/bootstrap.min.js"></script>
+<script src="../bootstrap/js/bootstrap.js"></script>
+
+
+
+
+
+
+</head>
+<body>
+  <div class="container">
+    <h4></h4>
+    <div id="success" class="success"></div>
+    <div id="error" class="error"></div>
+
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact-form" id="nuevo-producto">
+     REGISTRATE
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="contact-form" tabindex="-1" role="dialog" aria-labelledby="ContactLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="ContactLabel">Formulario de Registro</h4>
+          </div>
+          <div class="modal-body">
+
+
+
+
+            <form id="contacto" onsubmit="return modificaRegistro();">
+
+              <div class="form-group">
+ <tr>
+                        <td colspan="2"><input type="text" required="required" readonly="readonly" id="id_usuario" name="id_usuario" readonly="readonly" style="visibility:hidden; height:5px;"/></td>
+                    </tr>
+                     <tr>
+                      <td width="150">Proceso: </td>
+                        <td><input type="text" required="required" readonly="readonly" id="pro" name="pro" /></td>
+                    </tr>
+                  </br>
+
+                
+              <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Nombre">
+              </div>
+
+
+
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" class="form-control" id="email" placeholder="Email">
+              </div>
+          
+              <div class="form-group">
+              <label for="telefono">Telefono</label>
+                <input type="text" name="telefono" class="form-control" id="telefono" placeholder="telefono">
+              </div>
+
+<div class="form-group">
+              <label for="direccion">Direccion</label>
+                <input type="text" name="direccion" class="form-control" id="direccion" placeholder="direccion">
+              </div>
+
+
+
+<tr>
+<td>
+<label for="provincia">Provincia</label>
+</td>
+
+<td>
+<select id="provincia" name="provincia">
+  <option value="">Seleccione...</option>
+    <option value="Quito">Pichincha</option>
+                                <option value="Guayas">Guayas</option>
+                                <option value="Cuenca">Cuenca</option>
+                           
+
+</select>
+</td>
+</tr>
+
+</br>
+</br>
+
+
+
+<tr>
+<td>
+<label for="canton">Cantón</label>
+</td>
+<td>
+<select id="canton" name="canton">
+  <option value="">Seleccione...</option>
+      <option value="Cayambe">Cayambe</option>
+                                <option value="Mejia">Mejia</option>
+                                <option value="Pedro Moncayo">Pedro Moncayo</option>
+                                 <option value="Guayaquil">Guayaquil</option>
+                                <option value=" Balao"> Balao</option>
+                                <option value="Balzar">Balzar</option>
+                                <option value=" Chordeleg"> Chordeleg</option>
+                                <option value="Girón">Girón</option>
+                               
+</select>
+</td>
+</tr>
+
+</br>
+</br>
+
+
+<tr>
+<td>
+<label for="parroquia">Parroquia</label>
+</td>
+<td>
+<select id="parroquia" name="parroquia">
+  <option value="">Seleccione...</option>
+  <option value="Carcelén">Carcelén</option>
+                                <option value=" Chilibulo"> Chilibulo</option>
+                                 <option value="Chillogallo">chillogallo</option>
+                                <option value=" Roca"> Roca</option>
+                                <option value="Tarqui">Tarqui</option>
+                                <option value=" Totoracocha"> Totoracocha</option>
+                                <option value=" Sucre"> Sucre</option>
+
+</select>
+</td>
+</tr>
+
+</br>
+</br>
+
+
+
+             <div class="form-group">
+              <label for="usuario">Usuario</label>
+                <input type="text" name="usuario" class="form-control" id="usuario" placeholder="usuario">
+              </div>
+
+ <div class="form-group">
+              <label for="contrasenia">Contraseña</label>
+                <input type="password" name="contrasenia" class="form-control" id="contrasenia" placeholder="contrasenia">
+              </div>
+
+ <div class="form-group">
+              <label for="contrasenia">Verificar Contraseña</label>
+                <input type="password" name="contrasenia2" class="form-control" id="contrasenia2" placeholder="contrasenia2">
+              </div>
+
+
+
+
+
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+            <button type="button" class="btn btn-primary" id="btn-enviar" data-loading-text="Enviando...">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section>
+    <table border="0" align="center">
+
+      <tr>
+<td>Buscar</td>
+</br>
+          <td width="400"><input type="text" placeholder="Busca un usuario"  id="bs-prod"/></td>
+            
+
+         
+        </tr>
+
+    </table>
+    </section>
+
+
+
+
+
+<div class="bdd10" id="agrega-registros">
+      <table class="table table-bordered">
+          <tr>
+              <th width="150">Nombre</th>
+                <th width="150">Email</th>
+                <th width="150">Telefono</th>
+                <th width="150">Direccion</th>
+                <th width="150">Provincia</th>
+                <th width="150">Canton</th>
+                <th width="150">Parroquia</th>
+                <th width="150">Usuario</th>
+                 <th width="150">Contrasenia</th>
+                <th width="50">Opciones</th>
+            </tr>
+            <?php 
+          include('../php/conexion.php');
+          $bdd10 = mysql_query("SELECT * FROM mensajes ORDER BY id_usuario ASC");
+          while($bdd102 = mysql_fetch_array($bdd10)){
+            echo '<tr>
+                <td>'.$bdd102['nombre'].'</td>
+                <td>'.$bdd102['email'].'</td>
+                <td>'.$bdd102['telefono'].'</td>
+                <td>'.$bdd102['direccion'].'</td>
+                                <td>'.$bdd102['provincia'].'</td>
+                                <td>'.$bdd102['canton'].'</td>
+                                <td>'.$bdd102['parroquia'].'</td>
+                                <td>'.$bdd102['usuario'].'</td>
+                                  <td>'.$bdd102['contrasenia'].'</td>
+                              <td><a href="javascript:editarProducto('.$bdd102['id_usuario'].');" class="glyphicon glyphicon-edit"></a> <a href="javascript:eliminarProducto('.$bdd102['id_usuario'].');" class="glyphicon glyphicon-remove-circle"></a></td>
+              </tr>';  
+
+
+
+          }
+
+
+
+
+
+
+      ?>
+        </table>
+
+
+
+  <td>
+
+<center>
+       <form action ="guardar.php" method="post" >
+    <input type="submit" value="Guardar" name="guardar">
+    <input type="hidden" value="' . $row['id'] . '"  name="id">
+    </form>
+</br>
+    <form action ="cancelar.php" method="post" >
+    <input type="submit" value="Cancelar" name="cancelar">
+    <input type="hidden" value="' . $row['id'] . '"  name="id">
+    </form>
+    
+ </center>
+  </td>
+
+
+
+    </div>
+
+
+   
+
+
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/additional-methods.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
